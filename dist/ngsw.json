@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.a84498077d429bb4f478.js",
+        "/main.dd30dd9d863162050c3b.js",
         "/polyfills.7037a817a5bb670ed2ca.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.3bb2a9d4949b7dc120a9.css"
@@ -39,7 +39,7 @@
     {
       "name": "api",
       "patterns": [
-        "https:\\/\\/rkdemotask\\.herokuapp\\.com\\/tasks"
+        "https:\\/\\/rkdemotask\\.herokuapp\\.com\\/tasks\\/"
       ],
       "strategy": "freshness",
       "maxSize": 5,
@@ -58,8 +58,8 @@
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "224f464ea05e7299701e0044b138e441d1125aba",
-    "/main.a84498077d429bb4f478.js": "98e71a9bc5004898dc1e6c1a044beaafdb9d5bf1",
+    "/index.html": "93652dfaa7765c120687766efa7c2f06805d0d4a",
+    "/main.dd30dd9d863162050c3b.js": "260a186a1574a32e9c930b36af195de7d53b2f06",
     "/polyfills.7037a817a5bb670ed2ca.js": "6946e10a03311677a01490b8e91741668e64e17e",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.3bb2a9d4949b7dc120a9.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"

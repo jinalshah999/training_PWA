@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { url } from 'src/environments/environment.prod';
+import { url } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { Task } from './task';
 

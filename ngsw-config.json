@@ -29,7 +29,7 @@
   "dataGroups":[{
     "name":"api",
     "urls":[
-      "https://rkdemotask.herokuapp.com/tasks"
+      "https://rkdemotask.herokuapp.com/tasks/"
     ],
     "cacheConfig":{
       "maxSize":5,
