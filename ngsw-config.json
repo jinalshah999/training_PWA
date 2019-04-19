@@ -1,0 +1,41 @@
+{
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/*.css",
+          "/*.js"
+        ],
+        "urls":[
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        ]
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups":[{
+    "name":"api",
+    "urls":[
+      "https://rkdemotask.herokuapp.com/tasks"
+    ],
+    "cacheConfig":{
+      "maxSize":5,
+      "maxAge":"6h",
+      "timeout":"10s",
+      "strategy":"freshness"
+    }
+  }]
+}
