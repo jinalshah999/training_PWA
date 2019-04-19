@@ -41,7 +41,7 @@
       "patterns": [
         "https:\\/\\/rkdemotask\\.herokuapp\\.com\\/tasks\\/"
       ],
-      "strategy": "freshness",
+      "strategy": "performance",
       "maxSize": 5,
       "maxAge": 21600000,
       "timeoutMs": 10000,
